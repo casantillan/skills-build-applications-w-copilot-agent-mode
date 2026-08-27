@@ -10,8 +10,8 @@ VITE_CODESPACE_NAME=tu-codespace
 ```
 
 La aplicación llamará a `https://${VITE_CODESPACE_NAME}-8000.app.github.dev/api/`.
-Si la variable no está definida, usa `/api/` como fallback local y evita generar
-URLs con `undefined`.
+Si la variable no está definida, usa `http://localhost:8000/api/` como fallback
+local y evita generar URLs con `undefined`.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
